@@ -1,0 +1,31 @@
+title: "Magnetic and Ohmic Photoevaporation in Hot Saturns Data Releases"
+project: "Magnetic Amplification of Photoevaporation: Coupled Dynamo and Ohmic Heating in Hot Saturns"
+description: "github repo"
+author: Koen Schenck
+email: kschenck2022@my.fit.edu
+show_downloads: false
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+# theme: jekyll-theme-primer
+remote_theme: pages-themes/primer
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true # Auto-generate ID's for headings
+plugins:
+  - jekyll-remote-theme # https://github.com/benbalter/jekyll-remote-theme
+  - jekyll-default-layout # https://github.com/benbalter/jekyll-default-layout
+  - jekyll-default-layout # https://github.com/benbalter/jekyll-titles-from-headings
+  - jekyll-relative-links # https://github.com/benbalter/jekyll-relative-links
+  - jekyll-avatar # https://github.com/benbalter/jekyll-avatar
+sass:
+  # Where you keep your scss files
+  sass_dir: assets/css/
+  # Where sass should look for other scss
+  load_paths:
+    - node_modules/
